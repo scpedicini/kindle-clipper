@@ -150,9 +150,14 @@ namespace KindleClipper
 
         private void ContextMenuStatus_Opening(object sender, CancelEventArgs e)
         {
-            if (ListBooks.SelectedItems.Count == 0) e.Cancel = true;
-
-            MenuItemFinished.Checked = BookMgr.GetOrMakeNewStatus(ListBooks.SelectedItems[0].Text);
+            if (ListBooks.SelectedItems.Count == 0)
+            {
+                e.Cancel = true;
+            }
+            else
+            {
+                MenuItemFinished.Checked = BookMgr.GetOrMakeNewStatus(ListBooks.SelectedItems[0].Text);
+            }
 
         }
 
@@ -172,7 +177,15 @@ namespace KindleClipper
             }
         }
 
+        private void PanelMain_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
+
+        private void ContainerSplit_SplitterMoved(object sender, SplitterEventArgs e)
+        {
+            ColTitle.Width = ListBooks.ClientRectangle.Width;
+        }
     }
 
     /* EXAMPLE OF CHUNK
