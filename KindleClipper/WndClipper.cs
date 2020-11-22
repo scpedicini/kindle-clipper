@@ -57,6 +57,8 @@ namespace KindleClipper
         {
             base.OnLoad(e);
             ColTitle.Width = ListBooks.ClientRectangle.Width;
+
+            ListBooks.HeaderStyle = ColumnHeaderStyle.None;
         }
         // books are connected to the tag item 
 

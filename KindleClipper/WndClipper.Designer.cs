@@ -64,17 +64,19 @@
             // 
             // ListBooks
             // 
+            this.ListBooks.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ListBooks.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ListBooks.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ColTitle});
             this.ListBooks.ContextMenuStrip = this.ContextMenuStatus;
-            this.ListBooks.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ListBooks.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.ListBooks.HideSelection = false;
-            this.ListBooks.Location = new System.Drawing.Point(3, 18);
+            this.ListBooks.Location = new System.Drawing.Point(6, 18);
             this.ListBooks.MultiSelect = false;
             this.ListBooks.Name = "ListBooks";
-            this.ListBooks.Size = new System.Drawing.Size(376, 535);
+            this.ListBooks.Size = new System.Drawing.Size(370, 531);
             this.ListBooks.TabIndex = 0;
             this.ListBooks.UseCompatibleStateImageBehavior = false;
             this.ListBooks.View = System.Windows.Forms.View.Details;
@@ -137,17 +139,22 @@
             // 
             // TextContents
             // 
+            this.TextContents.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.TextContents.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TextContents.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextContents.Location = new System.Drawing.Point(3, 18);
+            this.TextContents.Location = new System.Drawing.Point(6, 18);
             this.TextContents.Multiline = true;
             this.TextContents.Name = "TextContents";
             this.TextContents.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.TextContents.Size = new System.Drawing.Size(755, 535);
+            this.TextContents.Size = new System.Drawing.Size(747, 531);
             this.TextContents.TabIndex = 0;
             // 
             // ContainerSplit
             // 
+            this.ContainerSplit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ContainerSplit.Location = new System.Drawing.Point(12, 27);
             this.ContainerSplit.Name = "ContainerSplit";
             // 
